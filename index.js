@@ -14,6 +14,6 @@ app.use('/api', createProxyMiddleware({
   },
 }));
 
-app.listen(3001, () => {
+app.listen(3021, () => {
   console.log('Proxy server listening on port 3001');
 });
